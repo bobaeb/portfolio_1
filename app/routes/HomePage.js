@@ -13,26 +13,48 @@ class HomePage extends Component {
     return (
       <div>
 
-        <div style={{ color: "#6b6161" }}>
-          <div
-            style={{
-              height: "100px",
-              backgroundColor: "#fcecd7",
-              borderRadius: "4px",
-              textAlign: "center",
-              paddingTop: "40px",
-              paddingBottom: "40px"
-            }}
-          >
-            <span
+        <div>
+          <div style={{ width: "800px", height: "195px", margin: "0 auto" }}>
+            <div
               style={{
-                lineHeight: "20px",
-                backgroundColor: "#b8e986",
-                color: "#4a90e2"
+                position: "relative",
+                top: "50%",
+                transform: "translateY(-50%)"
               }}
             >
-              Hello Colorful World 🖍🖍
-            </span>
+              <h1>
+                <a
+                  href="home"
+                  style={{
+                    color: "#000000",
+                    textDecoration: "none",
+                    fontSize: "27px",
+                    fontWeight: 700,
+                    letterSpacing: "1px"
+                  }}
+                >
+                  <span>Bobae Park</span>
+                </a>
+                <ul style={{ marginTop: "25px" }}>
+                  <li style={{ marginRight: "30px", float: "left" }}>
+                    <a
+                      href="about"
+                      style={{ color: "#000000", textDecoration: "none" }}
+                    >
+                      <span>ABOUT</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="work"
+                      style={{ textDecoration: "none", color: "#000000" }}
+                    >
+                      <span>PROJECTS</span>
+                    </a>
+                  </li>
+                </ul>
+              </h1>
+            </div>
           </div>
         </div>
 
